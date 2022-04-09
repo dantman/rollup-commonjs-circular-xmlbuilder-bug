@@ -6,11 +6,7 @@ export default [
     input: 'index.js',
     output: [
       {
-        file: 'dist/index.umd.js',
-        format: 'umd',
-        amd: {
-          id: 'Test',
-        },
+        file: 'dist/index.js',
         name: 'Test',
         sourcemap: true,
         exports: 'named',
